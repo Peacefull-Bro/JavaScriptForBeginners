@@ -97,4 +97,4 @@
     }
     console.log(numMultiplying());
 
-    // ЗАДАНИЕ №4
+    // ЗАДАНИЕ №5
