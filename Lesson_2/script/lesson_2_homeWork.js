@@ -1,4 +1,6 @@
-/**/
+
+/*Дополнительные видео перед выполнением домашнего задания посмотреть не успел, поэтому, возможно код написан не совсем эстетично.
+к следующему дз исправлюсь */
 
 'use strict'
 // ЗАДАНИЕ №1
@@ -56,5 +58,43 @@
     } else if (numberOne < 0, numberTwo >= 0) {
         console.log+(numberOne + numberTwo);
     } 
+
+    // ЗАДАНИЕ №4
+
+    // Функция сложения
+    function numPlus() {
+        let numA = 15;
+        let numB = 5;
+        let result = numA + numB;
+        return result;
+    }
+    console.log(numPlus());
+
+    // Функция вычитания
+    function numMinus() {
+        let numA = 15;
+        let numB = 5;
+        let result = numA - numB;
+        return result;
+    }
+    console.log(numMinus());
+
+    // Функция деления
+    function numDivision() {
+        let numA = 15;
+        let numB = 5;
+        let result = numA / numB;
+        return result;
+    }
+    console.log(numDivision());
+
+    // Функция умножения
+    function numMultiplying() {
+        let numA = 15;
+        let numB = 5;
+        let result = numA * numB;
+        return result;
+    }
+    console.log(numMultiplying());
 
     // ЗАДАНИЕ №4
