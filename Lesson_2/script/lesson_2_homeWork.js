@@ -45,4 +45,16 @@
     /*так как значения в скобках имеют больший приоритет, поэтому сначала выполнилась операция умножения,
     потом к результату прибавилась еденица, получилось 5*/
 
-// ЗАДАНИЕ №3    
+// ЗАДАНИЕ №3
+    let numberOne = 7;
+    let numberTwo = 2;
+    
+    if (numberOne >= 0, numberTwo >= 0) {
+        console.log(numberOne - numberTwo);
+    } else if (numberOne < 0, numberTwo < 0) {
+        console.log(numberOne * numberTwo);
+    } else if (numberOne < 0, numberTwo >= 0) {
+        console.log+(numberOne + numberTwo);
+    } 
+
+    // ЗАДАНИЕ №4
