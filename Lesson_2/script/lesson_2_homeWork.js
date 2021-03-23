@@ -1,7 +1,7 @@
 /*Дополнительные видео перед выполнением домашнего задания посмотреть не успел, поэтому, возможно код написан не совсем эстетично.
 к следующему дз исправлюсь */
 
-"use strict"
+'use strict';
 // ЗАДАНИЕ №1
 
 
@@ -64,26 +64,62 @@ if (numberOne >= 0, numberTwo >= 0) {
 
 // Функция сложения
 function numPlus(numA, numB) {
-    return numA + numB;
+    let result = numA + numB;
+    return result;
 }
 console.log(numPlus(15, 5));
 
 // Функция вычитания
 function numMinus(numA, numB) {
-    return numA - numB;
+    let result = numA - numB;
+    return result;
 }
 console.log(numMinus(15, 5));
 
 // Функция деления
 function numDivision(numA, numB) {
-    return numA / numB;
+    let result = numA / numB;
+    return result;
 }
 console.log(numDivision(15, 5));
 
 // Функция умножения
 function numMultiplying(numA, numB) {
-    return numA * numB;
+    let result = numA * numB;
+    return result;
 }
 console.log(numMultiplying(15, 5));
 
 //ЗАДАНИЕ №5
+
+function mathOperation(arg1, arg2, operation) {
+    let result;
+
+    switch ("plus") {
+        case "plus":
+            result = numPlus(arg1, arg2);
+            return result;
+            break;
+        case "minus":
+            result = numMinus(arg1, arg2);
+            return result;
+            break;
+        case "division":
+            result = numDivision(arg1, arg2);
+            return result;
+            break;
+        case "multiplying":
+            result = numMultiplying(arg1, arg2);
+            return result;
+            break;
+    }
+}
+let plusOperation = mathOperation(15, 5, "plus");
+console.log(plusOperation);
+let minusOperation = mathOperation(15, 5, "minus");
+console.log(minusOperation);
+let divisionOperation = mathOperation(15, 5, "division");
+console.log(divisionOperation);
+let multiplyingOperation = mathOperation(15, 5, "multiplying");
+console.log(multiplyingOperation);
+
