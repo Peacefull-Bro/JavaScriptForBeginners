@@ -49,14 +49,14 @@ console.log(x);
 потом к результату прибавилась еденица, получилось 5*/
 
 // ЗАДАНИЕ №3
-let numberOne = 7;
-let numberTwo = 2;
+let numberOne = -7;
+let numberTwo = -2;
 
-if (numberOne >= 0, numberTwo >= 0) {
+if (numberOne >= 0 && numberTwo >= 0) {
     console.log(numberOne - numberTwo);
-} else if (numberOne < 0, numberTwo < 0) {
+} else if (numberOne < 0 && numberTwo < 0) {
     console.log(numberOne * numberTwo);
-} else if (numberOne < 0, numberTwo >= 0) {
+} else if (numberOne < 0 && numberTwo >= 0) {
     console.log + (numberOne + numberTwo);
 }
 

@@ -3,7 +3,7 @@
 // Функция сложения
 function numPlus(numA, numB) {
     return numA + numB;
-     
+
 }
 console.log(numPlus(15, 5));
 
@@ -58,3 +58,14 @@ console.log(divisionOperation);
 let multiplyingOperation = mathOperation(15, 5, "multiplying");
 console.log(multiplyingOperation);
 
+
+let user1score = 400;
+let user2score = 400;
+
+if (user1score > user2score) {
+    alert("Выиграл 1 игрок");
+}else if (user1score < user2score) {
+    alert("Выиграл 2 игрок");
+} else {
+    alert("Ничья")
+}
