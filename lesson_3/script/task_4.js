@@ -58,4 +58,9 @@ products.sort(function (a, b) {
     return 0;
 });
 
-console.log(products);
+console.log()
+
+for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+    
+}
