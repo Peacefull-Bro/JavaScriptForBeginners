@@ -1,7 +1,6 @@
 'use strict';
 
-const products = [
-    {
+const products = [{
         id: 3,
         price: 200,
     },
@@ -16,13 +15,9 @@ const products = [
 ];
 
 
-products.forEach(function(element) {
-    let discount;
-    let percent = 15;
-    discount = element.price; 
-    let number_pecent = discount / 100 * percent;
-    
-    console.log(discount - number_pecent);
-    
+products.forEach(function (element) {
+    element.price = element.price - element.price * 0.15;
+
 });
 
+console.log(products);
