@@ -26,7 +26,36 @@ const products = [{
     },
 ];
 
-let pictureProducts = products.filter(function(element){
-    return element.photos;
+let pictureProducts = products.filter(function (element) {
+    if ("photos" in element && element.photos.length > 0) {
+        return element;
+    }
 });
+
 console.log(pictureProducts);
+
+
+let testFunction = products.filter(function (element) {
+    //return IF()
+    return ("photos" in element && element.photos.length > 0);
+
+});
+
+console.log(testFunction);
+
+
+let testFunction1 = products.filter((element) => ("photos" in element && element.photos.length > 0));
+console.log(testFunction1);
+
+products.sort(function (a, b) {
+    if (a.price > b.price) {
+        return 1;
+    }
+    if (a.price < b.price) {
+        return -1;
+    }
+
+    return 0;
+});
+
+console.log(products);
